@@ -1,0 +1,39 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body{
+    margin:30px;
+}
+
+table {
+//   border-collapse: separate;
+//   border-spacing: 0 10px;
+}
+
+td{
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+div{
+    display: block;
+}
+
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+}
+ 
+.flash-message.notice {
+  background-color: #bcdfff;
+  color: #0067C0;
+  border: solid 1px #0067C0;
+}
+ 
+.flash-message.alert {
+  background-color: #ffd4d1;
+  color: #930403;
+  border: solid 1px #930403;
+}
